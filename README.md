@@ -40,10 +40,11 @@ A modern website featuring interactive random gradients and stunning animations.
 ## 📁 Project Structure
 
 random-gradient/
-├── index.html # Main page
-├── styles.css # Styles and animations
-├── script.js # JavaScript logic
-└── README.md # Documentation
+├── index.html          # Main page  
+├── styles.css          # Styles and animations  
+├── script.js           # JavaScript logic  
+└── README.md           # Documentation  
+
 
 markdown
 Копіювати
