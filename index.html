@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Gradient - Magic of Colors</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="background-animation">
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+            <div class="shape shape-5"></div>
+        </div>
+    </div>
+
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">
+                <i class="fas fa-palette"></i>
+                <span>Open Gradient</span>
+            </div>
+            <div class="nav-links">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About us</a>
+                <a href="#gallery" class="nav-link">Multiple gradients</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title gradient-text" id="mainTitle">
+                    Open Gradient
+                </h1>
+                <p class="hero-subtitle" id="subtitle">
+                    Discover the magic Open Gradient
+                </p>
+                <div class="cta-buttons">
+                    <button class="btn btn-primary" id="generateBtn">
+                        <i class="fas fa-magic"></i>
+                        Generate Gradient
+                    </button>
+                    <button class="btn btn-secondary" id="copyBtn">
+                        <i class="fas fa-copy"></i>
+                        Copy CSS
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">A little about the project</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Welcome to the world of amazing gradients! Our site allows you to discover unique color combinations that create fascinating visual effects. We were inspired by the OPEN GRADIENT project.</p>
+                        <p>Every click reveals new color magic that can inspire your creative projects.</p>
+                    </div>
+                    <div class="features">
+                        <div class="feature">
+                            <i class="fas fa-random"></i>
+                            <h3>Random Gradients</h3>
+                            <p>Unique color combinations</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-paint-brush"></i>
+                            <h3>Creative Animations</h3>
+                            <p>Smooth transitions and effects</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-code"></i>
+                            <h3>CSS Code</h3>
+                            <p>Ready-made code for your projects</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery">
+            <div class="container">
+                <h2 class="section-title">Gradient Gallery</h2>
+                <div class="gallery-grid" id="galleryGrid">
+                    <!-- Градієнти будуть додаватися динамічно -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Gradient Magic. Created with ❤️ and OPEN GRADIENT</p>
+        </div>
+    </footer>
+
+    <div class="notification" id="notification">
+        <span id="notificationText"></span>
+        <button class="notification-close" id="notificationClose">
+            <i class="fas fa-times"></i>
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
